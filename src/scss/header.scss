@@ -1,0 +1,6 @@
+header {
+  @include shadow;
+  display: flex;
+  @include flex(space-between, none, center);
+  background-color: $black;
+}
